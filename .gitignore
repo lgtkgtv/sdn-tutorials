@@ -1,0 +1,135 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfplan
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ansible
+*.retry
+ansible.log
+/tmp/
+.ansible/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+kubeconfig*
+*.kubeconfig
+
+# Logs
+*.log
+logs/
+test_report.md
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Generated files
+backups/
+*.bak
+*.backup
+
+# Node modules (if any JavaScript tools are used)
+node_modules/
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Kind cluster configs
+kind-config.yaml
+
+# Security scan reports
+bandit-report.json
+*.sarif
+
+# Cache directories
+.cache/
+.mypy_cache/
+
+# Tutorial-specific generated content
+*/test_report.md
+*/network-policies.yaml
+*/terraform.tfstate*
+*/terraform/.terraform/
+*/.terraform/
+*/backups/
+*/__pycache__/
+*/.pytest_cache/
+
+# Binary files that might be downloaded
+*/bin/terraform
+*/bin/kubectl
+*/bin/kind
+*/bin/helm
+
+# Kubernetes manifests that are generated
+*-deployment.yaml
+*-service.yaml
+*-configmap.yaml
