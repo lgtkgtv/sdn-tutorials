@@ -96,6 +96,17 @@ cd 02_infrastructure_as_code_foundations  # Or any tutorial 01-07
 ./test.sh     # Comprehensive testing
 ```
 
+### Option 3: Focused Learning (Standalone Tutorials)
+```bash
+# Just pytest and YAML processing
+cd 01_development_environment_testing_framework/pytest_yaml_tutorial
+./run_tutorial.sh
+
+# Just code quality and security tools
+cd 01_development_environment_testing_framework/code_quality_security_tools
+./run_tutorial.sh
+```
+
 ## 📋 Prerequisites
 
 | Tool | Version | Purpose |

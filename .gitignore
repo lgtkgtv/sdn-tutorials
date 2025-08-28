@@ -144,3 +144,21 @@ temp_*.py
 *-deployment.yaml
 *-service.yaml
 *-configmap.yaml
+
+# Chat logs and development artifacts
+chat_logs/
+*.chat
+conversation_*.md
+
+# IDE and editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Additional runtime artifacts
+*.pid
+.DS_Store
+.env.local
+.env.*.local
