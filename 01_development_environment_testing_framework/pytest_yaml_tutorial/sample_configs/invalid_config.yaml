@@ -1,0 +1,16 @@
+# Invalid NetworkPolicy - missing required fields
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  # Missing name field
+  namespace: production
+spec:
+  # Missing podSelector field
+  policyTypes:
+  - Ingress
+  - InvalidPolicyType  # Invalid policy type
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: unknown-app

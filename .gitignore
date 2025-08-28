@@ -123,6 +123,17 @@ bandit-report.json
 */__pycache__/
 */.pytest_cache/
 
+# Tutorial runtime artifacts
+*/coverage_html/
+coverage_html/
+*coverage_html*/
+*/reports/
+sdn-everything/
+sample_project/
+demo_fixes/
+challenge_code.py
+temp_*.py
+
 # Binary files that might be downloaded
 */bin/terraform
 */bin/kubectl
